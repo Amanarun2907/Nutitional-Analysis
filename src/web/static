@@ -1,0 +1,25 @@
+nutritional-analysis
+├── data
+│   ├── raw
+│   │   └── aman.csv
+│   └── processed
+│       └── cleaned_data.csv
+├── src
+│   ├── data
+│   │   ├── data_collection.py
+│   │   └── preprocessing.py
+│   ├── models
+│   │   ├── train.py
+│   │   └── predict.py
+│   ├── utils
+│   │   └── helpers.py
+│   └── web
+│       ├── static
+│       ├── templates
+│       └── app.py
+├── notebooks
+│   └── ml.ipynb
+├── tests
+│   └── test_models.py
+├── requirements.txt
+└── README.md
